@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/btn_bg_splash.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic__star_unfav.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic_baseline_cancel.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic_bb_four.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic_bb_one.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic_bb_three.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic_bb_two.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic_more_menu.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic_navigation_icon.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic_navigationicon.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic_star_fav.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/ic_tb_two.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/drawable/nav_item_drawable.xml" value="0.1905" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/activity_common_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/activity_favorite.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/activity_feedback.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/activity_recent.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/activity_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/listitem_chips.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/listitem_common.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/menu/home_drawer_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/menu/toolbar_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Zeeshan/DocumentViewer/app/src/main/res/xml/provider_paths.xml" value="0.11302083333333333" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/drawable/background_dialog.xml" value="0.1425" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/drawable/gradient_main.xml" value="0.1425" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1125" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/layout/activity_common_detail.xml" value="0.2212962962962963" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/layout/activity_favorite.xml" value="0.2421875" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/layout/activity_recent.xml" value="0.2421875" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/layout/activity_search.xml" value="0.2212962962962963" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/layout/activity_splash.xml" value="0.2421875" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/layout/activity_splash_two.xml" value="0.2421875" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/layout/ads_layout_sample.xml" value="0.2212962962962963" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/layout/custom_progress_layout.xml" value="0.2421875" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/layout/exit_dialog.xml" value="0.2212962962962963" />
+        <entry key="..\:/Zeeshan/DocumentViewerApp/DocumentViewer/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

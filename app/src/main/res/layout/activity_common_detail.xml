@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".details.CommonDetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/ln"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimaryVariant">
+
+        <ImageView
+            android:id="@+id/imgGoBackWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/_7sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/imgGoBackWeb"
+            android:gravity="center"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:text="All Files"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgSortDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_sort" />
+
+            <ImageView
+                android:id="@+id/imgSearchDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_baseline_search_24" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/txtNothing"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/nothing_found_please_refresh"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCommon"
+        android:layout_below="@+id/ln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewDialog"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id" />
+
+</RelativeLayout>

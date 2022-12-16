@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".search.SearchActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgBackSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"/>
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etSearch"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:hint="Search your file"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:includeFontPadding="false"
+                android:inputType="text"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/clearText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_baseline_cancel" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recyclerChips"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        -->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_margin="@dimen/_10sdp"-->
+<!--        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>-->
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_margin="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@drawable/btn_bg_splash">
+
+            <TextView
+                android:id="@+id/chipItemAll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="All"
+                android:textColor="@color/white" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:background="@drawable/btn_bg_splash">
+
+            <TextView
+                android:id="@+id/chipItemPdf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="PDF"
+                android:textColor="@color/white" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:background="@drawable/btn_bg_splash">
+
+            <TextView
+                android:id="@+id/chipItemWord"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Word"
+                android:textColor="@color/white" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:background="@drawable/btn_bg_splash">
+
+            <TextView
+                android:id="@+id/chipItemExel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Exel"
+                android:textColor="@color/white" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/_60sdp"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@drawable/btn_bg_splash">
+
+            <TextView
+                android:id="@+id/chipItemPpt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="PPT"
+                android:textColor="@color/white" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/_60sdp"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@drawable/btn_bg_splash">
+
+            <TextView
+                android:id="@+id/chipItemTxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Txt"
+                android:textColor="@color/white" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </HorizontalScrollView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:id="@+id/recyclerSearch"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

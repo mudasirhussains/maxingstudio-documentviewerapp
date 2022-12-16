@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chipItemCard"
+    android:backgroundTint="@color/transparent"
+    android:background="@color/transparent"
+    android:layout_width="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:background="@drawable/btn_bg_splash">
+
+        <TextView
+            android:id="@+id/chipItemName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="pdf"
+            android:textColor="@color/white" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

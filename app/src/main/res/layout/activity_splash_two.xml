@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_main"
+    tools:context=".splash.SplashTwoActivity">
+
+    <include layout="@layout/ads_layout_sample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLetsStart"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/btn_bg_splash"
+        android:backgroundTint="@color/purple_text"
+        android:paddingLeft="@dimen/_20sdp"
+        android:paddingRight="@dimen/_20sdp"
+        android:text="@string/let_s_start"
+        android:textColor="@color/white" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
